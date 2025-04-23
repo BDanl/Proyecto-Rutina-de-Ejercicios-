@@ -12,11 +12,9 @@ const WorkoutScreen = () => {
     <View style={styles.container}>
       <ScrollView contentContainerStyle={styles.scrollContent} showsVerticalScrollIndicator={false}>
         
-        {/* Comienzo rápido */}
         <Text style={styles.sectionTitle}>Comienzo rápido</Text>
         <CreateWorkout />
 
-        {/* Rutinas */}
         <Text style={styles.sectionTitle}>Rutinas</Text>
         <View style={styles.cardRow}>
           <NewRoutineCard />
@@ -37,7 +35,7 @@ const styles = StyleSheet.create({
   },
   scrollContent: {
     paddingHorizontal: 20,
-    paddingTop: 150, // Increased paddingTop to push everything lower
+    paddingTop: 150, 
     paddingBottom: 30,
   },
   sectionTitle: {

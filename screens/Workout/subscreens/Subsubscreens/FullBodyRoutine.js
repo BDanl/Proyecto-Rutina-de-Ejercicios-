@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-export default FullBodyRoutine = () => {
+const FullBodyRoutine = () => {
   return (
     <View style={styles.container}>
       <Text>Full Body Routine</Text>
@@ -22,3 +22,5 @@ const styles = StyleSheet.create({
     color: '#333',
   },
 });
+
+export default FullBodyRoutine;

@@ -11,6 +11,13 @@ import TermsScreen from "../screens/Profile/Settings/TermsScreen";
 import ProfileEditScreen from "../screens/Profile/Settings/ProfileEditScreen";
 import ChangePasswordScreen from "../screens/Profile/Settings/ChangePasswordScreen";
 import DeleteAccountScreen from "../screens/Profile/Settings/DeleteAccountScreen";
+import FullBodyRoutine from "../screens/Workout/subscreens/Subsubscreens/FullBodyRoutine";
+import PushPullLegsRoutine from "../screens/Workout/subscreens/Subsubscreens/PushPullLegsRoutine";
+import StrengthRoutine from "../screens/Workout/subscreens/Subsubscreens/StrengthRoutine";
+import BeginnerRoutine from "../screens/Workout/subscreens/Subsubscreens/BeginnerRoutine";
+import HIITRoutine from "../screens/Workout/subscreens/Subsubscreens/HIITRoutine";
+import CoreRoutine from "../screens/Workout/subscreens/Subsubscreens/CoreRoutine";
+import CalisthenicsRoutine from "../screens/Workout/subscreens/Subsubscreens/CalisthenicsRoutine";
 
 
 
@@ -30,6 +37,15 @@ function MainStackNavigator() {
             <AppStack.Screen name="ProfileEditScreen" component={ProfileEditScreen} />
             <AppStack.Screen name="ChangePasswordScreen" component={ChangePasswordScreen} />
             <AppStack.Screen name="DeleteAccountScreen" component={DeleteAccountScreen} />
+
+            <AppStack.Screen name="FullBodyRoutine" component={FullBodyRoutine} />
+            <AppStack.Screen name="PushPullLegsRoutine" component={PushPullLegsRoutine} />
+            <AppStack.Screen name="StrengthRoutine" component={StrengthRoutine} />
+            <AppStack.Screen name="BeginnerRoutine" component={BeginnerRoutine} />    
+            <AppStack.Screen name="HIITRoutine" component={HIITRoutine} />
+            <AppStack.Screen name="CoreRoutine" component={CoreRoutine} />
+            <AppStack.Screen name="CalisthenicsRoutine" component={CalisthenicsRoutine} />
+
 
 
             <AppStack.Screen name="ProfileScreen" component={ProfileScreen} />

@@ -2,6 +2,7 @@ import { View, Text, StyleSheet, TouchableOpacity, Dimensions } from "react-nati
 import { useNavigation } from '@react-navigation/native';
 import React from "react";
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons'; 
+import { useUsersContext } from "../../../context/UsersContext";
 
 const ExploreScreen = () => {
   const navigation = useNavigation();
